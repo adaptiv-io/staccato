@@ -4,11 +4,12 @@ module Staccato
   class Screen
     # Screen field definitions
     FIELDS = {
-      name: 'an',
-      version: 'av',
-      id: 'aid',
-      installer_id: 'aiid',
-      content_description: 'cd'
+      client_id: 'cid',
+      application_name: 'an',
+      appication_version: 'av',
+      application_id: 'aid',
+      application_installer_id: 'aiid',
+      screen_name: 'cd'
     }
 
     include Hit
